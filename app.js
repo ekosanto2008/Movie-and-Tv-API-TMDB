@@ -1,4 +1,4 @@
-const API_KEY = '984aecc88245ece7a2d6038a51386040'; // Replace with your TMDb API key
+const API_KEY = 'YOUR_API_KEY'; // Replace with your TMDb API key
 const API_URL = `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}&language=en-US&page=1`;
 const MOVIE_DETAIL_URL = (id) => `https://api.themoviedb.org/3/movie/${id}?api_key=${API_KEY}&language=en-US`;
 
